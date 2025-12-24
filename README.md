@@ -38,6 +38,19 @@ This repository contains a collection of **fundamental digital arithmetic buildi
 - Implemented using: Bitwise inversion, and a carry-in of 1
 - Shares hardware concepts with addition
 
+### 🔹 Adder-Subtractor (A-B)
+- 16-bit signed Adder-subtractor Unit
+- Uses Carry in as a selector for Subtraction vs. Addition
+
+### 🔹 Status Register
+- Register that stores input of 4 key Flags (N, C, Z, V)
+- The results for Carry (C) and Overflow (V) flags are performed during addition & subtraction but not stored
+- d
+
+### 🔹 Comparator Register
+- Comparator register directly relies on the status register
+- A method of designing the comparator register would be to use if/else statements with comparative logic, this method avoids the status register. The status reg is instantiated here and 
+
 ---
 
 
