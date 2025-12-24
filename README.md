@@ -24,12 +24,6 @@ This repository contains a collection of **fundamental digital arithmetic buildi
 - Reduces carry propagation delay
 - Demonstrates speed vs area tradeoffs in adder design
 
-### 🔹 Subtractor (A-B)
-- 4-bit Two’s complement subtraction
-  - (A-B) = A + (~B)+1
-- Implemented using: Bitwise inversion, and a carry-in of 1
-- Shares hardware concepts with addition
-
 ### 🔹 Multiplier
 - 4-bit binary multiplier
 - Supports:
@@ -37,6 +31,12 @@ This repository contains a collection of **fundamental digital arithmetic buildi
   - Signed (two’s complement) multiplication
 - Produces full-width product (2N bits)
 - Suitable for extension to fixed-point arithmetic
+
+### 🔹 Subtractor (A-B)
+- 4-bit Two’s complement subtraction
+  - (A-B) = A + (~B)+1
+- Implemented using: Bitwise inversion, and a carry-in of 1
+- Shares hardware concepts with addition
 
 ---
 
