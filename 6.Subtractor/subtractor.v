@@ -1,11 +1,12 @@
 module subtractor(
     input signed [3:0] a,
     input signed [3:0] b,
+    input bin,
     output signed [3:0] diff,
-    output out
+    output bout
 );
     // 2s Complement Subtraction needs to add 1 to inverted b
-    wire in = 1'b1;
+    assign bin = 1'b1;
     // invert b
     wire [3:0] b_comp;
     assign b_comp = ~b;
@@ -41,7 +42,7 @@ module subtractor(
         .b(b_comp[3]),
         .cin(),
         .sum(diff[3]),
-        .cout(out)
+        .cout(bout)
     );
 
 
