@@ -45,7 +45,6 @@ This repository contains a collection of **fundamental digital arithmetic buildi
 ### 🔹 Status Register
 - Register that stores input of 4 key Flags (N, C, Z, V)
 - The results for Carry (C) and Overflow (V) flags are performed during addition & subtraction but not stored
-- d
 
 ### 🔹 Comparator Register
 - Comparator register directly relies on the status register
